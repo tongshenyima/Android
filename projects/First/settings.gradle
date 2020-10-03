@@ -1,0 +1,2 @@
+include ':app', ':unit', ':day20200227', ':day0227_login'
+rootProject.name='My First Application'

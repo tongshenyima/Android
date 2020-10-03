@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:textSize="24sp"
+    android:text="五一假期全国快递揽投量双破10亿件！你收了几个？"
+    android:ellipsize="end"
+    android:singleLine="true"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+

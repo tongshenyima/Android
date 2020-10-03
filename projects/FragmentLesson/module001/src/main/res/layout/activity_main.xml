@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/container"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbMessage"
+            android:drawableTop="@drawable/message_selector"
+            android:checked="true"
+            android:text="消息"
+
+            style="@style/rbType"
+            />
+        <RadioButton
+            android:id="@+id/rbFolder"
+            android:drawableTop="@drawable/folder_selector"
+            android:text="文档"
+            style="@style/rbType"
+           />
+        <RadioButton
+            android:id="@+id/rbOffice"
+            android:drawableTop="@drawable/office_selector"
+            android:text="办事大厅"
+
+            style="@style/rbType"
+           />
+        <RadioButton
+            android:id="@+id/rbAddress"
+            android:drawableTop="@drawable/address_selector"
+            android:text="通讯录"
+
+            style="@style/rbType"
+            />
+        <RadioButton
+            android:id="@+id/rbFind"
+            android:drawableTop="@drawable/find_selector"
+            android:text="发现"
+            style="@style/rbType"
+           />
+    </RadioGroup>
+
+
+</LinearLayout>

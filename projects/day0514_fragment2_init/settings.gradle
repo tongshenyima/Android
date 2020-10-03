@@ -1,0 +1,2 @@
+include ':app', ':task001', ':task002', ':task0003', ':task004', ':task005', ':regpager'
+rootProject.name='day0514_fragment2_init'

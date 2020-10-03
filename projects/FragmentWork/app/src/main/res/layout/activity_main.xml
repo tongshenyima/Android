@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/rbMessage"
+            style="@style/rbType"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/message_selector"
+            android:text="消息"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/rbFolder"
+            style="@style/rbType"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/folder_selector"
+            android:text="文档"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/rbOffice"
+            style="@style/rbType"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/office_selector"
+            android:text="办事大厅"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/rbAddress"
+            style="@style/rbType"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/address_selector"
+            android:text="通讯录"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/rbFind"
+            style="@style/rbType"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/find_selector"
+            android:text="发现页"
+            android:gravity="center"/>
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
+

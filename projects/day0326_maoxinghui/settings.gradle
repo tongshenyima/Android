@@ -1,0 +1,2 @@
+include ':app', ':checkbox'
+rootProject.name='day0326_maoxinghui'

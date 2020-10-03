@@ -1,0 +1,2 @@
+include ':app', ':01linearlayout', ':02relativelayout', ':03zuoyelinearlayout', ':04zuoyerelativelayout'
+rootProject.name='day200301yuxi'

@@ -1,0 +1,2 @@
+include ':app', ':newway', ':day0423', ':datepickdemo', ':spinner001'
+rootProject.name='对话框的使用（Dialog)'

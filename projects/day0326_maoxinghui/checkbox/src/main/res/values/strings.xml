@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CheckBoxDemo</string>
+    <string name="question">新型冠状病毒肺炎的主要临床症状？</string>
+    <string-array name="options">
+       <item>皮疹</item>
+       <item>乏力</item>
+       <item>发热</item>
+       <item>干咳</item>
+       <item>咳痰</item>
+    </string-array>
+</resources>

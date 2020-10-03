@@ -1,0 +1,2 @@
+include ':app', ':sec'
+rootProject.name='Week4yuxi'

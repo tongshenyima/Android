@@ -1,0 +1,2 @@
+include ':app', ':md001'
+rootProject.name='zixue week7 switch'

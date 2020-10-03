@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">day0409_init</string>
+    <string name="content_description_media">暂无</string>
+    <string name="title">一线抗疫群英谱:张军</string>
+    <string name="secondary_text">患者性命相托，我们必当全力以赴</string>
+    <string name="supporting_text">我现在觉得抗疫不仅是一场接力赛。接力赛中，第一棒跑完就算结束了，而对于我们来说，这更像是一场拔河比赛，只有取得完全胜利才是结束。”张军说。</string>
+    <string name="title2">一线抗疫群英谱:张红霞</string>
+    <string name="secondary_text2">抗疫一线的巾帼“0号手”</string>
+    <string name="supporting_text2">奋战光谷一个多月，这样的故事每天都在发生，张红霞的“热心肠”让患者如沐春风倍感温暖，很多人出院时拉着她舍不得离开。一位患者出院前夜琢磨半宿，送给张红霞8个字：红霞映日，便是春天。</string>
+    <string name="title3">一线抗疫群英谱:刘孟丽</string>
+    <string name="secondary_text3">护士长刘孟丽：从长江抗洪到抗击疫情，守望武汉31年</string>
+    <string name="supporting_text3">37年军龄，从医31年，在心胸外科、神经内科重症监护室工作多年，深刻理解守望生命的含义。“路上的车和行人都多起来了，我们的付出有了成效。”刘孟丽觉得，武汉从最艰难的日子挺了过来，扑面而来的生活气息让她感到温暖和欣慰。</string>
+
+</resources>

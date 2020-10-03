@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:text="中"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnEast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnCenter"
+        android:layout_toRightOf="@+id/btnCenter"
+        android:text="东"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnWeast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnCenter"
+        android:layout_toLeftOf="@+id/btnCenter"
+        android:text="西"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnNorth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCenter"
+        android:layout_alignLeft="@+id/btnCenter"
+        android:text="北"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnSouth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCenter"
+        android:layout_alignLeft="@+id/btnCenter"
+        android:text="南"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnWeastNorth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCenter"
+        android:layout_alignLeft="@+id/btnWeast"
+        android:text="西北"
+        android:textSize="32sp" />
+    <Button
+        android:id="@+id/btnEastNorth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCenter"
+        android:layout_alignLeft="@+id/btnEast"
+        android:text="东北"
+        android:textSize="32sp" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="message"
+            android:checked="true"/>
+        <item android:id="@+id/nav_find"
+            android:icon="@drawable/find"
+            android:title="find"/>
+        <item android:id="@+id/nav_address"
+            android:icon="@drawable/address"
+            android:title="address"/>
+        <item android:id="@+id/nav_office"
+            android:icon="@drawable/office"
+            android:title="office"/>
+        <item android:id="@+id/nav_folder"
+            android:icon="@drawable/folder"
+            android:title="folder"/>
+    </group>
+</menu>

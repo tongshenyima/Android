@@ -1,0 +1,2 @@
+include ':task001', ':task002', ':task003'
+rootProject.name='day0416Intent'

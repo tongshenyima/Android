@@ -1,0 +1,2 @@
+include ':app', ':task001', ':task002'
+rootProject.name='day0402'

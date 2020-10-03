@@ -1,0 +1,2 @@
+include ':app', ':module001', ':mutao', ':module0012', ':module002';
+rootProject.name='Fragment001'

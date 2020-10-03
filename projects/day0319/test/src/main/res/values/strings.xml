@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">day0319</string>
+    <string-array name="citys">
+        <item>
+            杭州
+        </item>
+        <item>
+            宁波
+        </item>
+    </string-array>
+</resources>

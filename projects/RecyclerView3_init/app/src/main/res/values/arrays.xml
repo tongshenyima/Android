@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="TitleArray">
+        <item>公文流转</item>
+        <item>考勤管理</item>
+        <item>值班管理</item>
+        <item>请假管理</item>
+        <item>加班管理</item>
+        <item>就餐管理</item>
+        <item>日程管理</item>
+        <item>季度考评管理</item>
+        <item>维修管理</item>
+        <item>派车管理</item>
+        <item>备勤房管理</item>
+        <item>办案区管理</item>
+        <item>公告通知</item>
+        <item>公务接待</item>
+        <item>检务信息网</item>
+        <item>罪名认定及办案期限表</item>
+        <item>廉政风险</item>
+        <item>案件质量评审</item>
+    </string-array>
+
+    <string-array name="ContentArray">
+        <item>支持从公文流转中发文和收文文件查阅</item>
+        <item>将每天的上班下班打卡记录进行存档</item>
+        <item>将当天的值班情况记录下来</item>
+        <item>记录成员的请假申请单,管理员可对其请假单进行管理</item>
+        <item>今天含有未完成或者临时来的任务进行通知</item>
+        <item>可进行预订退订和查询菜品以及余额查询等</item>
+        <item>可对会议进行添加删除查询和会议室的管理</item>
+        <item>将每天的工作和事务安排在日期中</item>
+        <item>将所需要维修的物件拍照申请并能得到反馈以及自己所接到的维修任务通知</item>
+        <item>可查看车辆状态并提交申请得到反馈和对车辆的管理</item>
+        <item>可进行对房间的查看和申请审批反馈以及管理</item>
+        <item>可进行对房间的查看和申请审批反馈以及管理</item>
+        <item>呈现所有公告以及对公告的管理</item>
+        <item>接待领导或者参观人员</item>
+        <item>检务信息</item>
+        <item>罪名认定及办案期限表</item>
+        <item>廉政风险</item>
+        <item>该模块请进入涉密网使用</item>
+    </string-array>
+    
+</resources>
